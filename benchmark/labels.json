@@ -1,0 +1,20 @@
+{
+  "prompt_injection": {
+    "description": "Attempts to override system instructions"
+  },
+  "jailbreak": {
+    "description": "Bypasses safety constraints"
+  },
+  "data_extraction": {
+    "description": "Attempts to retrieve hidden/system data"
+  },
+  "role_confusion": {
+    "description": "Forces model into alternate roles"
+  },
+  "tool_abuse": {
+    "description": "Misuse of tool/function calling behavior"
+  },
+  "fuzzing_edge_case": {
+    "description": "Malformed or adversarial noise inputs"
+  }
+}

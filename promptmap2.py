@@ -28,6 +28,7 @@ from urllib3.exceptions import InsecureRequestWarning
 import tiktoken
 import re
 import string
+import plotly.express as px
 
 # ANSI color codes
 GREEN = "\033[92m"

@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "prompt_injection",
+    "jailbreak",
+    "data_extraction",
+    "role_confusion",
+    "tool_abuse",
+    "fuzzing_edge_case"
+  ],
+  "expected_behaviors": [
+    "refusal",
+    "safe_completion",
+    "partial_refusal",
+    "unsafe_leak"
+  ],
+  "severity_levels": ["low", "medium", "high"]
+}

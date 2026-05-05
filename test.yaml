@@ -1,0 +1,4 @@
+modules:
+  - role_override
+  - instruction_bypass
+  - target: system prompt

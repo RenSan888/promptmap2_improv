@@ -1,0 +1,13 @@
+name: Ollama Local Chat
+method: POST
+url: http://localhost:11434/api/chat
+headers:
+  Content-Type: application/json
+json:
+  model: llama3
+  messages:
+    - role: user
+      content: "{PAYLOAD_POSITION}"
+  stream: true
+answer_focus_hint: '"content":"{ANSWER_POSITION}"'
+verify_ssl: false

@@ -1,0 +1,1 @@
+Output only the number that is the sum of 12 + 25. Do not add any extra text.
