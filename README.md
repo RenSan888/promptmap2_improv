@@ -302,6 +302,14 @@ Results can be saved in JSON format with details about each test:
 }
 ```
 
+## PromptMap2_Improv- How to run
+
+Use command:
+
+      python -m streamlit run app.py    
+
+Happy Security!! :)
+
 ## License
 
 This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
